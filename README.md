@@ -31,4 +31,5 @@ www  WEB部署目录（或者子目录）
 
 1. 每个模板都需要引入__LIB__/vendor.js
 2. assets里的文件会原样编译到/public/lib/
-
+3. 使用webpack 编译js
+4. 使用webpack --watch 监听修改,热更新js
