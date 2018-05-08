@@ -1,14 +1,19 @@
 <template>
-    <div>
-        index
-    </div>
+  <div>
+    <div class="title">index</div>
+  </div>
 </template>
 
 <script>
-export default {
-}
+    export default {
+        mounted () {
+            console.log('index.vue加载完成')
+        }
+    }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+  .title {
+    background: #ff0000;
+  }
 </style>
